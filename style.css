@@ -300,32 +300,32 @@ body, html, div, a, span, img {
     margin-bottom: 10px;
 }
 
-/* Container for Activity Infos */
+
 .activities-infos {
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Align content vertically */
-    gap: 5px; /* Space between items inside the container */
-    padding: 5px 10px; /* Add padding around the container */
-    border-radius: 20px; /* Rounded edges for the container */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; 
+    padding: 5px 10px;
+    border-radius: 20px; 
 }
 
-/* Individual Activity Info Box */
+
 .activities-info {
-    padding: 5px 15px; /* Padding inside the box */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(54, 10, 124, 0.1); /* Subtle shadow for depth */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+    padding: 5px 15px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(54, 10, 124, 0.1); 
+    transition: background-color 0.3s, transform 0.3s; 
 }
 
-/* Activity Info Text */
+
 .activities-info span {
-    font-size: 14px; /* Adjust font size */
-    font-weight: bold; /* Make text bold */
-    color: #ffffff; /* White text color */
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #ffffff; 
 }   
 
-/* Hover Effect for Info Box */
+
 .activities-info:hover {
     background-color: #ff0883; 
     transform: scale(1.05); 
